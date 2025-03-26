@@ -15,11 +15,16 @@ On line 53, changed "Products" to "Prebuilt Computers"
 ## Part D
 Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen.
 
-File Name:  
+File Name: mainscreen.html
+
+ **New files:** aboutscreen.html in templates, and AboutPageController.java in controllers 
 
 Change:
 
-On line X, changed ...
+aboutscreen.html is just a html template that the AboutPageController.java can use when /aboutscreen is reached in the URL
+The aboutscreen.html gives information about the company and includes a button to get back to the mainscreen
+
+On line 21 of mainscreen.html, added a new button that moves the user to the new about screen
 
 ## Part E
 Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the data
