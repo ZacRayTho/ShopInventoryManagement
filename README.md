@@ -1,3 +1,35 @@
+Things changed in part C:
+
+    -
+
+Things changed in part D:
+
+    - 
+
+Things changed in part E:
+
+    - 
+
+Things changed in part F:
+
+    - 
+
+Things changed in part G:
+
+    - 
+
+Things changed in part H:
+
+    - 
+
+Things changed in part I:
+
+    - 
+
+Things changed in part J:
+
+    - 
+
 <strong>** DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
 
 # WESTERN GOVERNORS UNIVERSITY 
