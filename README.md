@@ -1,34 +1,75 @@
 Things changed in part C:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    -
+    File Name: mainscreen.html
 
+    Change: 
+        On line 19, changed "Shop" to "Crazy Computer Shop"
+        On line 21, changed "Parts" to "Internal Parts"
+        On line 53, changed "Products" to "Prebuilt Computers"
+   
 Things changed in part D:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part E:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part F:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part G:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part H:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part I:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 Things changed in part J:
+    Prompt: Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
-    - 
+    File Name: mainscreen.html
+
+    Line Number(s): 
+
+    Change:
 
 <strong>** DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
 
