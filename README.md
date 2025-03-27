@@ -49,11 +49,16 @@ Add a “Buy Now” button to your product list. Your “Buy Now” button must 
 - The button should decrement the inventory of that product by one. It should not affect the inventory of any of the associated parts.
 -  Display a message that indicates the success or failure of a purchase.
 
-File Name:
+File Name: 
 
 Change:
 
-On line X, changed ...
+added two new templates for confirmation and error of the buy now button in the forms of `confirmationbuyproduct.html` and `genericerror.html`
+
+added `BuyProductController.java` which implements a route to /buyProduct and uses the passed down ID to find the product in the repository/database. Then using that Product sets its inventory to one less then what it currently is.
+
+On line 88-89 of mainscreen.html, added a "buy now" button to the table which also passed the productID of that rows product to the controller
+
 
 ## Part G
 Modify the parts to track maximum and minimum inventory by doing the following:
