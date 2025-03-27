@@ -29,11 +29,19 @@ On line 21 of mainscreen.html, added a new button that moves the user to the new
 ## Part E
 Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the data
 
-File Name:
+File Name: BootStrapData.java in bootstrap, InhousePart.java in domain, OutsourcedPart.java in domain
 
-Change:
+Change: 
         
-On line X, changed ...
+On line 46-58 of BootStrapData.java, I create 3 outsourced parts, 2 in house parts and save them to their respective repositories.
+
+On line 80-92 of BootStrapData.java, I create 5 Products and save them to the product repository
+
+On line 20-24 of InhousePart.java, I created a new constructor that lets me put all the attributes instead of having to individually set them after the construction
+
+On line 20-27 of OutsourcedPart.java, I created a new constructor that lets me put all the attributes instead of having to individually set them after the construction
+
+These last two changes were not required but I implemented for ease of use
 
 ## Part F
 Add a “Buy Now” button to your product list. Your “Buy Now” button must meet each of the following parameters:
