@@ -44,10 +44,10 @@ public class BootStrapData implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         OutsourcedPart GPU = new OutsourcedPart(145, "GeForce 1080 GPU", 250.00, 4, "Nvidia");
-        OutsourcedPart CPU = new OutsourcedPart(145, "Ryzen 7000 CPU", 275.00, 1, "AMD");
-        OutsourcedPart RAM = new OutsourcedPart(145, "Vengeance DDR4 RAM", 100.00, 2, "Corsair");
-        InhousePart Monitor = new InhousePart(145, "Dell Monitor 1080", 150.00, 3, 1);
-        InhousePart Keyboard = new InhousePart(145, "RedDragon Keyboard", 80.00, 6, 2);
+        OutsourcedPart CPU = new OutsourcedPart(189, "Ryzen 7000 CPU", 275.00, 1, "AMD");
+        OutsourcedPart RAM = new OutsourcedPart(15, "Vengeance DDR4 RAM", 100.00, 2, "Corsair");
+        InhousePart Monitor = new InhousePart(5, "Dell Monitor 1080", 150.00, 3, 1);
+        InhousePart Keyboard = new InhousePart(745, "RedDragon Keyboard", 80.00, 6, 2);
 
         if (outsourcedPartRepository.count() == 0 && inhousePartRepository.count() == 0) {
             outsourcedPartRepository.save(GPU);
