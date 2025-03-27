@@ -84,7 +84,14 @@ File Name:
 
 Change:
 
-On line X, changed ...
+On line 27-30 of OutsourcedPartForm.html, added two new table fields for max and min inventory
+On line 26-29 of InhousePartForm.html, added two new table fields for max and min inventory
+On line 55-87 of Part.java added new constructor with max/min inv fileds and create setter and getter methods for both variables, as well as a new CheckInv method to ensure Inv is within range
+on line 26-27 of OutsourcedPart.java I modified the constructor to include the min and max fields
+On line 20-21 of InhousePart.java I modified the constructor to include the min and max fields
+On line 49-51 of AddInhousePartController.java, I added the new checkInv method to check that the Inv is between min and max for Inhouse parts
+On line 50-52 of AddOutsourcedPartController.java I add the CheckInv method to check inv size against min and max values before saving.
+
 
 ## Part I
 Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.

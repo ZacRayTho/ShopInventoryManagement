@@ -17,8 +17,8 @@ public class InhousePart extends Part{
     public InhousePart() {
     }
 
-    public InhousePart(long id, String name, double price, int inv, int partId) {
-        super(id, name, price, inv); // Calls the parent class constructor
+    public InhousePart(long id, String name, double price, int inv, int partId, int minInv, int maxInv) {
+        super(id, name, price, inv, minInv, maxInv); // Calls the parent class constructor
         this.partId = partId; // Sets the additional field specific to InhousePart
     }
 
