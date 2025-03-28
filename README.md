@@ -104,7 +104,7 @@ File Name:
 
 Change:
         
-On line X, changed ...
+On line 159-172 of PartTest.java, added two new tests, that tests the new maxInv limits and Low Inv limits
 
 ## Part J
 Remove the class files for any unused validators in order to clean your code.
