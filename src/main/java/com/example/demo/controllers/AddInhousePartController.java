@@ -46,6 +46,14 @@ public class AddInhousePartController{
         InhousePartService repo=context.getBean(InhousePartServiceImpl.class);
         InhousePart ip=repo.findById((int)part.getId());
         if(ip!=null)part.setProducts(ip.getProducts());
+        if (part.lowInv()) {
+            theModel.addAttribute("lowInventoryMessage", "Warning: ");
+            return "InhousePartForm";
+        }
+        if (part.highInv()) {
+            theModel.addAttribute("highInventoryMessage", "Warning: ");
+            return "InhousePartForm";
+        }
             if(!part.checkInv()){
                 return "genericerror";
             }

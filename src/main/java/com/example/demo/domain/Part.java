@@ -61,6 +61,14 @@ public abstract class Part implements Serializable {
         this.maxInv = maxInv;
     }
 
+    public boolean lowInv() {
+        return inv < minInv;
+    }
+
+    public boolean highInv() {
+        return inv > maxInv;
+    }
+
     public boolean checkInv() {
         if (inv < minInv || inv > maxInv) {
             return false;

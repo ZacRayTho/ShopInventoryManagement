@@ -47,6 +47,14 @@ public class AddOutsourcedPartController {
         OutsourcedPartService repo=context.getBean(OutsourcedPartServiceImpl.class);
         OutsourcedPart op=repo.findById((int)part.getId());
         if(op!=null)part.setProducts(op.getProducts());
+        if (part.lowInv()) {
+            theModel.addAttribute("lowInventoryMessage", "Warning: ");
+            return "OutsourcedPartForm";
+        }
+        if (part.highInv()) {
+            theModel.addAttribute("highInventoryMessage", "Warning: ");
+            return "OutsourcedPartForm";
+        }
         if(!part.checkInv()){
             return "genericerror";
         }

@@ -29,6 +29,8 @@
     <p><input type="text" th:field="*{minInv}" placeholder="Min Inventory" class="form-control mb-4 col-4"/></p>
 
 <p><input type="submit" value="Submit" /></p>
+<p th:if="${lowInventoryMessage != null}">Inventory is Low</p>
+<p th:if="${highInventoryMessage != null}">Inventory is above max</p>
 </form>
 <a href="http://localhost:8080/">Link
     to Main Screen</a>

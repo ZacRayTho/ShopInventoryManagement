@@ -8,7 +8,10 @@
 </head>
 <body>
 <h1>Inhouse Part Detail</h1>
-<form action="#" th:action="@{/showFormAddInPart}" th:object="${inhousepart}" method="POST"}>
+
+
+
+<form action="#" th:action="@{/showFormAddInPart}" th:object="${inhousepart}" method="POST">
 
 <!-- Add hidden form field to handle update -->
     <p><input type="hidden" th:field="*{id}"/></p>
@@ -28,6 +31,8 @@
     <p><input type="text" th:field="*{minInv}" placeholder="Min Inventory" class="form-control mb-4 col-4"/></p>
 
 <p><input type="submit" value="Submit" /></p>
+<p th:if="${lowInventoryMessage != null}">Inventory is Low</p>
+<p th:if="${highInventoryMessage != null}">Inventory is above max</p>
 </form>
 <p><errors path="price" cssClass=""error/><p>
 
